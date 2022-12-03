@@ -1,0 +1,1 @@
+/opt/homebrew/Cellar/llvm/15.0.5/bin/clang  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -fsanitize=fuzzer CMakeFiles/fuzzme.dir/fuzzme.c.o -o fuzzme 
